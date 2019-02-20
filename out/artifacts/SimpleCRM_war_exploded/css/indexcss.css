@@ -1,0 +1,80 @@
+@media screen and (max-width: 500px) {
+body {
+    font-size: 10px;
+  }
+}
+body{
+	font-size: 16px;
+	font-family: Arial !important;
+}
+.sidebar{
+	background-color: #222;
+	display: block;
+	padding: 20px;
+	position: fixed;
+	left: 0px;	
+	bottom: 0px;
+	top: 51px;
+	border-right: 1px solid #333;
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+	margin-right: -21px; 
+	margin-bottom: 20px;
+	margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999;
+}
+.nav-sidebar > li > a:hover,
+.nav-sidebar > li > a:focus {
+	outline: none;
+	color: #fff;
+	background-color: #000 !important;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+	outline: none;
+	color: #fff;
+	background-color: #000 !important;
+}
+.main{
+	margin-top: 51px;
+}
+.page-welcome{
+	margin: 100px auto;
+	width: 210px;	
+    border-bottom-width: 0px;
+}
+.page-header{
+	margin: 50px auto; 
+	width: 120px;
+	border-bottom: 0px;
+}
+.form-control{
+	width: 200px;
+}
+.form-group > label{
+	padding-top: 7.5px;
+}
+label.radio-inline{
+	padding-top: 0px !important;
+	padding-bottom: 15px;
+}
+/* 正确信息   */
+h4.msg-success{
+	color: #00b000;
+}
+/* 错误信息   */
+h4.msg-error{
+	color: red;
+}
+/* 将显示结果和按钮对齐  */
+.list-items{
+	padding-top: 12px !important;
+}
